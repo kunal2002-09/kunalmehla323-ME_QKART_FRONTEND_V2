@@ -36,7 +36,7 @@ router.post("/register", (req, res) => {
     users.insert({
       username: req.body.username,
       password: sha256(req.body.password),
-      balance: 5000,
+      balance: 6000,
       cart: [],
       addresses: [],
       emails:[]
