@@ -1,0 +1,13 @@
+.content {
+    background-image: url("../assets/hero_image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  /* #product-name-label{
+    color:aliceblue !important;
+  } */
