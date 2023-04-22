@@ -6,7 +6,7 @@ var { products } = require("../db");
 const crypto = require("crypto");
 const jwt = require("jsonwebtoken");
 const config = require("../config.json");
-const { DockSharp } = require("@mui/icons-material");
+// const { DockSharp } = require("@mui/icons-material");
 const { json } = require("express");
 
 router.post("/register", (req, res) => {
